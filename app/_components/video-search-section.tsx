@@ -1,17 +1,19 @@
 import Image from "next/image";
-import { Search } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
 import type { VideoItem } from "@/features/video-discovery/domain/video-item";
+
+import { VideoSearchForm } from "./video-search-form";
 
 type Props = {
   query: string;
+  level: string;
+  topic: string;
   videos: VideoItem[];
 };
 
-export function VideoSearchSection({ query, videos }: Props) {
+export function VideoSearchSection({ query, level, topic, videos }: Props) {
   return (
     <section className="grid gap-4" aria-labelledby="video-search-title">
       <Card className="border border-primary/20 bg-white/95">
@@ -20,15 +22,7 @@ export function VideoSearchSection({ query, videos }: Props) {
           <CardDescription>Type one word like colors, animals, or numbers.</CardDescription>
         </CardHeader>
         <CardContent className="grid gap-4">
-          <form action="/" className="relative">
-            <Search className="pointer-events-none absolute top-2.5 left-3 size-4 text-muted-foreground" />
-            <Input
-              name="q"
-              defaultValue={query}
-              placeholder="Search in English..."
-              className="h-10 bg-muted pl-10"
-            />
-          </form>
+          <VideoSearchForm query={query} level={level} topic={topic} />
           <div className="grid gap-3 md:grid-cols-2">
             {videos.map((video) => (
               <a

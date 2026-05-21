@@ -30,14 +30,15 @@ function mapYoutubeItem(item: YoutubeSearchResponse["items"][number]): VideoItem
 
 export async function searchYoutubeVideos(
   query: string,
-  apiKey: string
+  apiKey: string,
+  topic?: string
 ): Promise<VideoItem[]> {
   const params = new URLSearchParams({
     part: "snippet",
     type: "video",
     maxResults: "8",
     safeSearch: "strict",
-    q: buildEducationalQuery(query),
+    q: buildEducationalQuery(query, topic),
     key: apiKey,
   });
 
