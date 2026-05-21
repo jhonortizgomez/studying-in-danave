@@ -32,6 +32,16 @@ const buttonVariants = cva(
         "icon-lg": "size-10",
       },
     },
+    compoundVariants: [
+      {
+        variant: "default",
+        className: "shadow-primary hover:shadow-lg hover:shadow-primary/50 active:shadow-primary/20",
+      },
+      {
+        variant: "secondary",
+        className: "shadow-lg shadow-secondary/20 hover:shadow-secondary/40",
+      },
+    ],
     defaultVariants: {
       variant: "default",
       size: "default",

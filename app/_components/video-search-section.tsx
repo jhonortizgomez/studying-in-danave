@@ -15,40 +15,45 @@ type Props = {
 
 export function VideoSearchSection({ query, level, topic, videos }: Props) {
   return (
-    <section className="grid gap-4" aria-labelledby="video-search-title">
-      <Card className="border border-primary/20 bg-white/95">
+    <section className="grid gap-6" aria-labelledby="video-search-title">
+        <Card className="border-0 bg-linear-to-br from-white/80 to-primary/5 backdrop-blur-sm">
         <CardHeader>
-          <CardTitle id="video-search-title">Search videos</CardTitle>
-          <CardDescription>Type one word like colors, animals, or numbers.</CardDescription>
+          <CardTitle id="video-search-title" className="text-2xl bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">🎬 Search Videos</CardTitle>
+          <CardDescription className="text-foreground/70 font-medium">Type one word like colors, animals, or numbers.</CardDescription>
         </CardHeader>
-        <CardContent className="grid gap-4">
+        <CardContent className="grid gap-6">
           <VideoSearchForm query={query} level={level} topic={topic} />
-          <div className="grid gap-3 md:grid-cols-2">
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 auto-rows-max">
             {videos.map((video) => (
               <a
                 key={video.id}
                 href={video.youtubeUrl}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="group rounded-3xl border border-border bg-background p-3 transition hover:-translate-y-0.5 hover:border-primary/40"
+                className="group rounded-2xl border border-primary/15 bg-white/90 dark:bg-slate-900/70 p-0 overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-primary/25 hover:scale-105 hover:-translate-y-2"
               >
                 <Image
                   src={video.thumbnailUrl}
                   alt={video.title}
                   width={480}
                   height={270}
-                  className="mb-3 h-40 w-full rounded-2xl object-cover"
+                  className="h-40 w-full object-cover"
                 />
-                <div className="flex items-center justify-between gap-3">
-                  <h3 className="text-sm font-semibold">{video.title}</h3>
-                  <Badge variant="outline">{video.level}</Badge>
+                <div className="p-3 space-y-2">
+                  <div className="flex items-start justify-between gap-2">
+                    <h3 className="text-sm font-bold text-foreground line-clamp-2 flex-1">{video.title}</h3>
+                    <Badge variant={video.level === "A1" ? "level_a1" : "level_a2"} className="shrink-0">{video.level}</Badge>
+                  </div>
+                  <p className="text-xs text-muted-foreground line-clamp-2">{video.description}</p>
                 </div>
-                <p className="mt-1 text-sm text-muted-foreground">{video.description}</p>
               </a>
             ))}
           </div>
           {videos.length === 0 ? (
-            <p className="text-sm font-medium text-primary">No result. Try another easy word.</p>
+            <div className="text-center py-12">
+              <p className="text-lg font-semibold text-primary">🔍 No videos found</p>
+              <p className="text-sm text-muted-foreground mt-2">Try searching with another easy word</p>
+            </div>
           ) : null}
         </CardContent>
       </Card>

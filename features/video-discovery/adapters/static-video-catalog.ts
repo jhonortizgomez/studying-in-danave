@@ -38,15 +38,6 @@ const VIDEO_CATALOG: VideoItem[] = [
     tags: ["days", "time", "song"],
   },
   {
-    id: "simple-questions",
-    title: "Easy Questions in English",
-    description: "Ask and answer simple questions.",
-    youtubeUrl: "https://www.youtube.com/watch?v=tA0JfA5e7vQ",
-    thumbnailUrl: "https://img.youtube.com/vi/tA0JfA5e7vQ/hqdefault.jpg",
-    level: "A2",
-    tags: ["questions", "speaking"],
-  },
-  {
     id: "animals-for-kids",
     title: "Animals and Sounds",
     description: "Say animal names and sounds in English.",
