@@ -34,6 +34,7 @@ export default async function Home({ searchParams }: HomeProps) {
   };
   
   const videos = await searchVideos(query, filters);
+  console.log('items in catalog', videos.length);
   const games = listGames();
   const story = getStoryContent();
 
