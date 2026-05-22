@@ -437,55 +437,7 @@ const VIDEO_CATALOG: VideoItem[] = [
     level: "A1",
     tags: ["grammar", "present-continuous"],
   },
-    {
-  id: "superheroes-vocabulary",
-  title: "Superheroes for Kids",
-  description: "Learn superhero vocabulary.",
-  youtubeUrl: "https://www.youtube.com/watch?v=I4Wv3J2trMs",
-  thumbnailUrl: "https://img.youtube.com/vi/I4Wv3J2trMs/hqdefault.jpg",
-  level: "A1",
-  tags: ["superheroes", "vocabulary"],
-},
-{
-  id: "dinosaurs-for-kids",
-  title: "Dinosaurs for Kids",
-  description: "Learn dinosaur names in English.",
-  youtubeUrl: "https://www.youtube.com/watch?v=j7uF-ZwalyA",
-  thumbnailUrl: "https://img.youtube.com/vi/j7uF-ZwalyA/hqdefault.jpg",
-  level: "A1",
-  tags: ["dinosaurs", "animals"],
-},
-{
-  id: "bugs-and-insects",
-  title: "Bugs and Insects",
-  description: "Learn insects vocabulary.",
-  youtubeUrl: "https://www.youtube.com/watch?v=4b1LtGXC9FI",
-  thumbnailUrl: "https://img.youtube.com/vi/4b1LtGXC9FI/hqdefault.jpg",
-  level: "A1",
-  tags: ["insects", "animals"],
-},
-{
-  id: "sports-vocabulary",
-  title: "Sports Vocabulary",
-  description: "Learn sports names in English.",
-  youtubeUrl: "https://www.youtube.com/watch?v=9AOAH0j14qQ",
-  thumbnailUrl: "https://img.youtube.com/vi/9AOAH0j14qQ/hqdefault.jpg",
-  level: "A1",
-  tags: ["sports", "vocabulary"],
-},
-{
-  id: "community-helpers",
-  title: "Community Helpers",
-  description: "Learn jobs and occupations.",
-  youtubeUrl: "https://www.youtube.com/watch?v=jt2q1cHsH6E",
-  thumbnailUrl: "https://img.youtube.com/vi/jt2q1cHsH6E/hqdefault.jpg",
-  level: "A1",
-  tags: ["jobs", "community"],
-},
-  
 ];
-
-
 
 export function getStaticVideoCatalog(): VideoItem[] {
   return VIDEO_CATALOG;
