@@ -13,7 +13,7 @@ export function AnimatedSection({ children, delay = 0 }: Props) {
     <motion.div
       initial={{ opacity: 0, y: 24, scale: 0.95 }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: true, amount: "some" }}
       transition={{ 
         duration: 0.6, 
         delay, 
