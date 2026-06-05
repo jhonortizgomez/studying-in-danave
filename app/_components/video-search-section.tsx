@@ -75,9 +75,12 @@ export function VideoSearchSection({ query, level, topic, videos }: Props) {
                       </Badge>
                     ))}
                   </div>
-                  <p className="text-xs text-muted-foreground mt-2">
-                    Source: {video.reference}
-                  </p>
+                  <div>
+                    <p className="text-xs font-semibold mt-4">Reference:</p>
+                    <p className="text-xs text-muted-foreground italic">
+                      {video.reference}
+                    </p>
+                  </div>
                 </div>
               </a>
             ))}
