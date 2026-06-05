@@ -8,4 +8,5 @@ export type VideoItem = {
   thumbnailUrl: string;
   level: EnglishLevel;
   tags: string[];
+  reference: string;
 };

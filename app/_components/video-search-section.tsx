@@ -1,7 +1,13 @@
 import Image from "next/image";
 
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import type { VideoItem } from "@/features/video-discovery/domain/video-item";
 
 import { VideoSearchForm } from "./video-search-form";
@@ -16,10 +22,17 @@ type Props = {
 export function VideoSearchSection({ query, level, topic, videos }: Props) {
   return (
     <section className="grid gap-6" aria-labelledby="video-search-title">
-        <Card className="border-0 bg-linear-to-br from-white/80 to-primary/5 backdrop-blur-sm">
+      <Card className="border-0 bg-linear-to-br from-white/80 to-primary/5 backdrop-blur-sm">
         <CardHeader>
-          <CardTitle id="video-search-title" className="text-2xl bg-linear-to-r from-primary to-accent bg-clip-text text-transparent">🎬 Search Videos</CardTitle>
-          <CardDescription className="text-foreground/70 font-medium">Type one word like colors, animals, or numbers.</CardDescription>
+          <CardTitle
+            id="video-search-title"
+            className="text-2xl bg-linear-to-r from-primary to-accent bg-clip-text text-transparent"
+          >
+            🎬 Search Videos
+          </CardTitle>
+          <CardDescription className="text-foreground/70 font-medium">
+            Type one word like colors, animals, or numbers.
+          </CardDescription>
         </CardHeader>
         <CardContent className="grid gap-6">
           <VideoSearchForm query={query} level={level} topic={topic} />
@@ -41,18 +54,42 @@ export function VideoSearchSection({ query, level, topic, videos }: Props) {
                 />
                 <div className="p-3 space-y-2">
                   <div className="flex items-start justify-between gap-2">
-                    <h3 className="text-sm font-bold text-foreground line-clamp-2 flex-1">{video.title}</h3>
-                    <Badge variant={video.level === "A1" ? "level_a1" : "level_a2"} className="shrink-0">{video.level}</Badge>
+                    <h3 className="text-sm font-bold text-foreground line-clamp-2 flex-1">
+                      {video.title}
+                    </h3>
+                    <Badge
+                      variant={video.level === "A1" ? "level_a1" : "level_a2"}
+                      className="shrink-0"
+                    >
+                      {video.level}
+                    </Badge>
                   </div>
-                  <p className="text-xs text-muted-foreground line-clamp-2">{video.description}</p>
+                  <p className="text-xs text-muted-foreground line-clamp-2">
+                    {video.description}
+                  </p>
+
+                  <div className="flex flex-wrap gap-1 mt-2">
+                    {video.tags.map((tag) => (
+                      <Badge key={tag} variant="outline" className="text-xs">
+                        {tag}
+                      </Badge>
+                    ))}
+                  </div>
+                  <p className="text-xs text-muted-foreground mt-2">
+                    Source: {video.reference}
+                  </p>
                 </div>
               </a>
             ))}
           </div>
           {videos.length === 0 ? (
             <div className="text-center py-12">
-              <p className="text-lg font-semibold text-primary">🔍 No videos found</p>
-              <p className="text-sm text-muted-foreground mt-2">Try searching with another easy word</p>
+              <p className="text-lg font-semibold text-primary">
+                🔍 No videos found
+              </p>
+              <p className="text-sm text-muted-foreground mt-2">
+                Try searching with another easy word
+              </p>
             </div>
           ) : null}
         </CardContent>

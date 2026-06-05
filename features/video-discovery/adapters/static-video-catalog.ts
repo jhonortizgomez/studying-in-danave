@@ -9,6 +9,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/D0Ajq682yrA/hqdefault.jpg",
     level: "A1",
     tags: ["numbers", "counting"],
+    reference:
+      "The Singing Walrus - English Songs For Kids. (2016, 25 febrero). Number song 1-20 for children | Counting numbers | The Singing Walrus [Vídeo]. YouTube. https://www.youtube.com/watch?v=D0Ajq682yrA",
   },
   {
     id: "colors-for-kids",
@@ -18,6 +20,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/SLZcWGQQsmg/hqdefault.jpg",
     level: "A1",
     tags: ["colors", "vocabulary"],
+    reference:
+      "The Singing Walrus - English Songs For Kids. (2014, 20 mayo). Rainbow Colors Song | Colors Song for Kids | The Singing Walrus [Vídeo]. YouTube. https://www.youtube.com/watch?v=SLZcWGQQsmg",
   },
   {
     id: "days-of-week",
@@ -27,6 +31,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/36n93jvjkDs/hqdefault.jpg",
     level: "A2",
     tags: ["days", "time", "song"],
+    reference:
+      "Dream English Kids. (2011, 8 marzo). Days of The Week Song For Kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=36n93jvjkDs",
   },
   {
     id: "animals-for-kids",
@@ -36,6 +42,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/rPe4yziWiOg/hqdefault.jpg",
     level: "A1",
     tags: ["animals", "vocabulary"],
+    reference:
+      "Blippi - Educational Videos for Kids. (2019, 19 enero). Blippi Learns about Jungle Animals for Kids | Educational Videos for Toddlers [Vídeo]. YouTube. https://www.youtube.com/watch?v=rPe4yziWiOg",
   },
   {
     id: "numbers-1-100",
@@ -45,6 +53,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/jlC2l0kqocE/hqdefault.jpg",
     level: "A1",
     tags: ["numbers", "counting"],
+    reference:
+      "Amigo Mumu Español. (2020, 1 julio). Los Números en Inglés del 1 al 100 | Contar hasta el 100 en Inglés [Vídeo]. YouTube. https://www.youtube.com/watch?v=jlC2l0kqocE",
   },
   {
     id: "family-members",
@@ -54,6 +64,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/FHaObkHEkHQ/hqdefault.jpg",
     level: "A1",
     tags: ["family", "vocabulary"],
+    reference:
+      "English Singsing. (2016, 14 junio). Family (family members & tree) - Kids vocabulary - Learn English educational video for kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=FHaObkHEkHQ",
   },
   {
     id: "body-parts-1",
@@ -63,6 +75,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/h4eueDYPTIg/hqdefault.jpg",
     level: "A1",
     tags: ["body", "vocabulary"],
+    reference:
+      "ChuChu TV Nursery Rhymes & Kids Songs. (2014, 4 abril). Head, Shoulders, Knees & Toes - exercise song for kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=h4eueDYPTIg",
   },
   {
     id: "months-year",
@@ -72,8 +86,9 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/Fe9bnYRzFvk/hqdefault.jpg",
     level: "A1",
     tags: ["months", "calendar"],
+    reference:
+      "The Singing Walrus - English Songs For Kids. (2016b, junio 15). Months of the Year Song | Song for Kids | The Singing Walrus [Vídeo]. YouTube. https://www.youtube.com/watch?v=Fe9bnYRzFvk",
   },
-
   {
     id: "vegetables-vocabulary",
     title: "Vegetables Vocabulary Chant for Children",
@@ -82,6 +97,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/TWpnohR6AoQ/hqdefault.jpg",
     level: "A1",
     tags: ["food", "vocabulary"],
+    reference:
+      "Fun Kids English. (2024, 21 febrero). Vegetables Vocabulary Chant for Children | Fun Kids English [Vídeo]. YouTube. https://www.youtube.com/watch?v=TWpnohR6AoQ",
   },
   {
     id: "shapes-kids",
@@ -91,6 +108,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/OEbRDtCAFdU/hqdefault.jpg",
     level: "A2",
     tags: ["shapes", "geometry"],
+    reference:
+      "The Singing Walrus - English Songs For Kids. (2015, 5 marzo). Shapes song for kids | The Singing Walrus [Vídeo]. YouTube. https://www.youtube.com/watch?v=OEbRDtCAFdU",
   },
   {
     id: "jobs-professions",
@@ -100,8 +119,9 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/ckKQclquAXU/hqdefault.jpg",
     level: "A2",
     tags: ["jobs", "vocabulary"],
+    reference:
+      "Fun Kids English. (2017, 29 junio). Jobs Song for Kids | What Do You Do? | Occupations | Kindergarten, Preschool, ESL | Fun Kids English [Vídeo]. YouTube. https://www.youtube.com/watch?v=ckKQclquAXU",
   },
-
   {
     id: "colors-basic",
     title: "Basic Colors",
@@ -110,6 +130,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/tRNy2i75tCc/hqdefault.jpg",
     level: "A1",
     tags: ["colors", "vocabulary"],
+    reference:
+      "KidsTV123. (2010, 20 junio). The Rainbow Colors song [Vídeo]. YouTube. https://www.youtube.com/watch?v=tRNy2i75tCc",
   },
   {
     id: "fruits-vegetables",
@@ -119,6 +141,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/MFmr_TZLpS0/hqdefault.jpg",
     level: "A1",
     tags: ["food", "vocabulary"],
+    reference:
+      "Dr. Jean. (2010, 30 abril). Dr. Jean’s Banana Dance - (aka The Guacamole Song) [Vídeo]. YouTube. https://www.youtube.com/watch?v=MFmr_TZLpS0",
   },
   {
     id: "daily-routines",
@@ -128,6 +152,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/qD1pnquN_DM/hqdefault.jpg",
     level: "A2",
     tags: ["routine", "speaking"],
+    reference:
+      "English Singsing. (2018, 24 mayo). My Day - Daily Routine - Kids vocabulary - Learn English for kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=qD1pnquN_DM",
   },
   {
     id: "clothes",
@@ -137,6 +163,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/Q_EwuVHDb5U/hqdefault.jpg",
     level: "A2",
     tags: ["clothes", "fashion"],
+    reference:
+      "English Singsing. (2016, 24 agosto). Clothes - clothing - Kids vocabulary - Learn English for kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=Q_EwuVHDb5U",
   },
   {
     id: "school-supplies",
@@ -146,6 +174,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/hjFaqDNUVFo/hqdefault.jpg",
     level: "A2",
     tags: ["school", "vocabulary"],
+    reference:
+      "Fun Kids English. (2018, 1 agosto). School Supplies song | Fun Kids English [Vídeo]. YouTube. https://www.youtube.com/watch?v=hjFaqDNUVFo",
   },
   {
     id: "telling-time",
@@ -155,6 +185,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/RBvmO7NgUp0/hqdefault.jpg",
     level: "A2",
     tags: ["time", "grammar"],
+    reference:
+      "Dream English Kids. (2016, 25 enero). Telling The Time Song for Kids | Dream English Kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=RBvmO7NgUp0",
   },
   {
     id: "places-town",
@@ -164,6 +196,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/UdDXlL9u0vI/hqdefault.jpg",
     level: "A2",
     tags: ["places", "city"],
+    reference:
+      "English Singsing. (2018, 20 julio). Places in Town - Kids vocabulary - Learn English for kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=UdDXlL9u0vI",
   },
   {
     id: "greetings-basic",
@@ -173,6 +207,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/tVlcKp3bWH8/hqdefault.jpg",
     level: "A1",
     tags: ["greetings", "speaking"],
+    reference:
+      "English Singsing. (2016, 12 julio). Greetings - Kids vocabulary - Learn English for kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=tVlcKp3bWH8",
   },
   {
     id: "abc-phonics",
@@ -182,6 +218,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/BELlZKpi1Zs/hqdefault.jpg",
     level: "A1",
     tags: ["alphabet", "phonics"],
+    reference:
+      "KidsTV123. (2009, 22 septiembre). Phonics Song 2 [Vídeo]. YouTube. https://www.youtube.com/watch?v=BELlZKpi1Zs",
   },
   {
     id: "numbers-1-10",
@@ -191,6 +229,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/85M1yxIcHpw/hqdefault.jpg",
     level: "A1",
     tags: ["numbers", "counting"],
+    reference:
+      "Dream English Kids. (2012, 17 mayo). Numbers Song Let’s Count 1-10 new version [Vídeo]. YouTube. https://www.youtube.com/watch?v=85M1yxIcHpw",
   },
   {
     id: "animals-farm",
@@ -200,6 +240,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/hewioIU4a64/hqdefault.jpg",
     level: "A1",
     tags: ["animals", "farm"],
+    reference:
+      "Smile and Learn - English. (2019, 23 julio). Farm animals for kids - Vocabulary for kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=hewioIU4a64",
   },
   {
     id: "fruits-vocabulary",
@@ -209,6 +251,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/mfReSbQ7jzE/hqdefault.jpg",
     level: "A1",
     tags: ["fruits", "food"],
+    reference:
+      "The Singing Walrus - English Songs For Kids. (2015, 27 mayo). Fruit Song for Kids | The Singing Walrus [Vídeo]. YouTube. https://www.youtube.com/watch?v=mfReSbQ7jzE",
   },
   {
     id: "family-basic",
@@ -218,6 +262,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/GiRUF7hvWuM/hqdefault.jpg",
     level: "A1",
     tags: ["family", "vocabulary"],
+    reference:
+      "ELF Kids Videos. (2010, 18 noviembre). We Are Family Song - My Family and ME! Acoustic Version - ELF Kids Videos [Vídeo]. YouTube. https://www.youtube.com/watch?v=GiRUF7hvWuM",
   },
   {
     id: "body-parts-basic-2",
@@ -227,6 +273,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/WX8HmogNyCY/hqdefault.jpg",
     level: "A1",
     tags: ["body", "vocabulary"],
+    reference:
+      "Super Simple Songs - Kids Songs. (2015, 15 julio). Head shoulders knees & toes (Speeding up) | Nursery Rhyme | Super Simple songs [Vídeo]. YouTube. https://www.youtube.com/watch?v=WX8HmogNyCY",
   },
   {
     id: "classroom-objects",
@@ -236,6 +284,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/dbklZrO5H78/hqdefault.jpg",
     level: "A1",
     tags: ["school", "classroom"],
+    reference:
+      "Super Simple Songs - Kids Songs. (2025, 28 agosto). Do you have a crayon? | School Supplies song | Super Simple songs [Vídeo]. YouTube. https://www.youtube.com/watch?v=dbklZrO5H78",
   },
   {
     id: "weather-kids",
@@ -245,6 +295,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/XcW9Ct000yY/hqdefault.jpg",
     level: "A1",
     tags: ["weather", "vocabulary"],
+    reference:
+      "Dream English Kids. (2010, 10 agosto). Weather song for kids: The Sun Comes Up! [Vídeo]. YouTube. https://www.youtube.com/watch?v=XcW9Ct000yY",
   },
   {
     id: "transport-basic",
@@ -254,6 +306,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/0ynatfJauMk/hqdefault.jpg",
     level: "A1",
     tags: ["transport", "vehicles"],
+    reference:
+      "Fun Kids English. (2023, 6 noviembre). Vehicles Vocabulary Chant for Children | Fun Kids English [Vídeo]. YouTube. https://www.youtube.com/watch?v=0ynatfJauMk",
   },
   {
     id: "my-body-parts",
@@ -264,6 +318,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/mOyriQBIFV4/hqdefault.jpg",
     level: "A1",
     tags: ["body", "vocabulary"],
+    reference:
+      "Fun Kids English. (2025, 12 febrero). My Body Vocabulary Chant for Kindergarten Kids | Fun Kids English [Vídeo]. YouTube. https://www.youtube.com/watch?v=mOyriQBIFV4",
   },
   {
     id: "feelings-emotions",
@@ -273,6 +329,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/l4WNrvVjiTw/hqdefault.jpg",
     level: "A1",
     tags: ["feelings", "emotions"],
+    reference:
+      "Super Simple Songs - Kids Songs. (2013, 22 noviembre). If You’re Happy | Kids Song | Super Simple Songs [Vídeo]. YouTube. https://www.youtube.com/watch?v=l4WNrvVjiTw",
   },
   {
     id: "action-verbs",
@@ -282,8 +340,9 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/VA00wkcxjTs/hqdefault.jpg",
     level: "A1",
     tags: ["verbs", "actions"],
+    reference:
+      "Inglés para niños con Mr Pea. (2025, 21 marzo). 10 «ACTION VERBS» SUPER ÚTILES - INGLÉS PARA NIÑOS CON MR.PEA [Vídeo]. YouTube. https://www.youtube.com/watch?v=VA00wkcxjTs",
   },
-
   {
     id: "healthy-food",
     title: "Healthy and Unhealthy Food",
@@ -292,6 +351,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/fE8lezHs19s/hqdefault.jpg",
     level: "A2",
     tags: ["food", "health"],
+    reference:
+      "English Tree. (2016, 29 octubre). Healthy Food vs junk Food song! [Vídeo]. YouTube. https://www.youtube.com/watch?v=fE8lezHs19s",
   },
   {
     id: "action-verbs-basic",
@@ -301,6 +362,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/wwxgny8bvRE/hqdefault.jpg",
     level: "A1",
     tags: ["verbs", "actions"],
+    reference:
+      "Baby Nenes. (2017, 6 marzo). Verbos básicos en inglés y español para niños (basic verbs) [Vídeo]. YouTube. https://www.youtube.com/watch?v=wwxgny8bvRE",
   },
   {
     id: "simple-action-words",
@@ -310,6 +373,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/jV1o2g0E4H4/hqdefault.jpg",
     level: "A1",
     tags: ["verbs", "actions"],
+    reference:
+      "World of Dhiyara. (2021, 26 agosto). ACTION VERBS FOR KIDS | HOW TO TEACH SIMPLE ACTION WORDS TO TODDLERS [Vídeo]. YouTube. https://www.youtube.com/watch?v=jV1o2g0E4H4",
   },
   {
     id: "simple-present",
@@ -319,6 +384,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/wtTAdfyejH0/hqdefault.jpg",
     level: "A1",
     tags: ["grammar", "simple-present"],
+    reference:
+      "Inglés para niños con Mr Pea. (2020, 11 agosto). PRESENT SIMPLE INGLÉS PARA NIÑOS CON MR PEA ENGLISH FOR KIDS [Vídeo]. YouTube. https://www.youtube.com/watch?v=wtTAdfyejH0",
   },
   {
     id: "verb-to-be",
@@ -328,6 +395,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/KRyK79yP0oA/hqdefault.jpg",
     level: "A1",
     tags: ["grammar", "simple-present"],
+    reference:
+      "Amigo Mumu Español. (2023, 11 mayo). EL VERBO TO BE EN INGLÉS DE MANERA FÁCIL y RÁPIDA | CLASE DE INGLÉS AMIGO MUMU [Vídeo]. YouTube. https://www.youtube.com/watch?v=KRyK79yP0oA",
   },
   {
     id: "connectors-basic",
@@ -337,6 +406,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/tmerK-Fjc_s/hqdefault.jpg",
     level: "A2",
     tags: ["grammar", "connectors"],
+    reference:
+      "Inglés para niños con Mr Pea. (2023, 12 enero). CONECTORES BÁSICOS EN INGLÉS - INGLÉS PARA NIÑOS CON MR.PEA [Vídeo]. YouTube. https://www.youtube.com/watch?v=tmerK-Fjc_s",
   },
   {
     id: "african-animals",
@@ -346,6 +417,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/ka38mJFu5OU/hqdefault.jpg",
     level: "A1",
     tags: ["animals", "africa"],
+    reference:
+      "Smart Family: Learn English. (2018, 29 enero). African Animals in English 🦓 | Listen and Repeat Wild Animal Words 🎧 [Vídeo]. YouTube. https://www.youtube.com/watch?v=ka38mJFu5OU",
   },
   {
     id: "food-song-kids",
@@ -355,6 +428,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/6IwulRrYnzQ/hqdefault.jpg",
     level: "A1",
     tags: ["food", "vocabulary"],
+    reference:
+      "Dream English Kids. (2016b, enero 25). Food Song | Learn 15 Food and Drinks | Learn English Kids [Vídeo]. YouTube. https://www.youtube.com/watch?v=6IwulRrYnzQ",
   },
   {
     id: "food-vocabulary-song",
@@ -364,6 +439,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/rjwrzBArZjA/hqdefault.jpg",
     level: "A1",
     tags: ["food", "vocabulary"],
+    reference:
+      "Super English Kid. (2016, 11 junio). Do you like food? Song for kids. | Super English Kid! [Vídeo]. YouTube. https://www.youtube.com/watch?v=rjwrzBArZjA",
   },
   {
     id: "likes-and-dislikes",
@@ -373,6 +450,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/frN3nvhIHUk/hqdefault.jpg",
     level: "A1",
     tags: ["likes", "dislikes", "speaking"],
+    reference:
+      "Super Simple Songs - Kids Songs. (2013, 9 octubre). Do You Like Broccoli Ice Cream? | Food Song for Kids! [Vídeo]. YouTube. https://www.youtube.com/watch?v=frN3nvhIHUk",
   },
   {
     id: "likes-and-dislikes-explained",
@@ -382,6 +461,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/O7AnqkMr2oI/hqdefault.jpg",
     level: "A1",
     tags: ["likes", "dislikes", "speaking"],
+    reference:
+      "Inglés para niños con Mr Pea. (2020, 16 agosto). LIKE & DISLIKE EN INGLÉS (PREFERENCIAS) - INGLÉS PARA NIÑOS CON MR PEA [Vídeo]. YouTube. https://www.youtube.com/watch?v=O7AnqkMr2oI",
   },
   {
     id: "have-has-basic",
@@ -391,6 +472,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/8scxeHkopv8/hqdefault.jpg",
     level: "A1",
     tags: ["grammar", "have", "has"],
+    reference:
+      "Interesting English. (2026, 20 enero). Have — Has for kids | English Grammar [Vídeo]. YouTube. https://www.youtube.com/watch?v=8scxeHkopv8",
   },
   {
     id: "hello-song",
@@ -400,6 +483,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/gghDRJVxFxU/hqdefault.jpg",
     level: "A1",
     tags: ["greetings", "speaking"],
+    reference:
+      "Super Simple Songs - Kids Songs. (2005, 22 septiembre). Hello! | Super Simple Songs [Vídeo]. YouTube. https://www.youtube.com/watch?v=gghDRJVxFxU",
   },
   {
     id: "alphabet-song",
@@ -409,6 +494,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/eegWzglBMh0/hqdefault.jpg",
     level: "A1",
     tags: ["alphabet", "phonics"],
+    reference:
+      "Lingokids Official Channel. (2020, 13 enero). ABCD In the Morning Brush your Teeth 🎵 ABC SONG | Lingokids [Vídeo]. YouTube. https://www.youtube.com/watch?v=eegWzglBMh0",
   },
   {
     id: "sea-animals",
@@ -418,6 +505,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/6-xqosckJ5c/hqdefault.jpg",
     level: "A1",
     tags: ["animals", "sea"],
+    reference:
+      "The Kiboomers - Kids Music Channel. (2016, 18 marzo). Animals In The Ocean Lyric Video [Vídeo]. YouTube. https://www.youtube.com/watch?v=6-xqosckJ5c",
   },
   {
     id: "pets-vocabulary",
@@ -427,6 +516,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/tj4JdexVNBA/hqdefault.jpg",
     level: "A1",
     tags: ["pets", "animals"],
+    reference:
+      "Fun Kids English. (2024, 9 enero). Pets Vocabulary Chant for Children | Fun Kids English [Vídeo]. YouTube. https://www.youtube.com/watch?v=tj4JdexVNBA",
   },
   {
     id: "present-continuous",
@@ -436,6 +527,8 @@ const VIDEO_CATALOG: VideoItem[] = [
     thumbnailUrl: "https://img.youtube.com/vi/lGkxRXamy7Y/hqdefault.jpg",
     level: "A1",
     tags: ["grammar", "present-continuous"],
+    reference:
+      "Inglés para niños con Mr Pea. (2020b, diciembre 18). PRESENT CONTINUOUS (EXPLICACIÓN + PRÁCTICA) - INGLÉS PARA NIÑOS CON MR.PEA [Vídeo]. YouTube. https://www.youtube.com/watch?v=lGkxRXamy7Y",
   },
 ];
 
