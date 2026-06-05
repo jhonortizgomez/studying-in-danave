@@ -20,6 +20,23 @@ export const metadata: Metadata = {
   description: "Educational web app with easy English videos and games for children.",
   icons: {
     icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  openGraph: {
+    title: "studying in DANAVE",
+    description: "Educational web app with easy English videos and games for children.",
+    url: "https://studying-in-danave.vercel.app",
+    siteName: "studying in DANAVE",
+    images: [
+      {
+        url: "https://studying-in-danave.vercel.app/android-chrome-512x512.png",
+        width: 1200,
+        height: 630,
+        alt: "studying in DANAVE - Educational web app with easy English videos and games for children.",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
   },
 };
 
