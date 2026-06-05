@@ -25,6 +25,7 @@ function mapYoutubeItem(item: YoutubeSearchResponse["items"][number]): VideoItem
     thumbnailUrl,
     level: inferVideoLevel(item.snippet.title, item.snippet.description),
     tags: item.snippet.tags ?? ["english", "kids", "learning"],
+    reference: `youtube:${videoId}`,
   };
 }
 
