@@ -15,7 +15,7 @@ export function HeroBanner() {
       <CardContent className="relative flex flex-col items-center gap-6 py-8 text-center md:py-12">
         <Badge variant="gradient_primary" className="w-fit">Welcome friends! 👋</Badge>
         <h1 className="bg-linear-to-r from-primary via-purple to-accent bg-clip-text text-4xl font-bold text-transparent md:text-6xl">
-          studying in DANAVE
+          Studying in DANAVE
         </h1>
         <p className="max-w-3xl text-base font-medium leading-relaxed text-foreground/90 md:text-lg">
           Find easy English videos and games. Learn new words every day with joy.
