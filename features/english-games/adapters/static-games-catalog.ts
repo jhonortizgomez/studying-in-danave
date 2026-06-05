@@ -7,6 +7,8 @@ const GAMES: GameItem[] = [
     description: "Match words and pictures in English.",
     url: "https://wordwall.net/en-us/community/kids-english",
     level: "A1",
+    reference:
+      "Zalkas. (s. f.). Community resources. https://wordwall.net/community",
   },
   {
     id: "pbskids",
@@ -14,6 +16,8 @@ const GAMES: GameItem[] = [
     description: "Play simple word games and listen.",
     url: "https://pbskids.org/games/reading/",
     level: "A1",
+    reference:
+      "Videos | PBS KIDS. (s. f.). PBS KIDS. https://pbskids.org/videos",
   },
   {
     id: "eslgamesplus",
@@ -21,13 +25,8 @@ const GAMES: GameItem[] = [
     description: "Easy grammar and vocabulary games.",
     url: "https://www.eslgamesplus.com/",
     level: "A2",
-  },
-  {
-    id: "funbrain",
-    title: "Funbrain Reading Games",
-    description: "Read short stories and learn words.",
-    url: "https://www.funbrain.com/games",
-    level: "A2",
+    reference:
+      "Plus, E. G. (2026, 31 enero). Free ESL Games Online for Kids & Teachers | ESL Games Plus. ESL Games | ESL Games Plus. https://www.eslgamesplus.com/",
   },
 ];
 

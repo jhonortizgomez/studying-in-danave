@@ -32,6 +32,10 @@ export function GamesSection({ games }: Props) {
                 <Badge variant={game.level === "A1" ? "level_a1" : "level_a2"} className="shrink-0">{game.level}</Badge>
               </div>
               <p className="text-xs text-muted-foreground">{game.description}</p>
+              <div className="mt-4">
+                <p className="text-xs font-semibold mt-4">Reference:</p>
+                <p className="text-xs text-muted-foreground italic">{game.reference}</p>
+              </div>
             </a>
           ))}
         </CardContent>
