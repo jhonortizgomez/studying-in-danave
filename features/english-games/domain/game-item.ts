@@ -4,5 +4,4 @@ export type GameItem = {
   description: string;
   url: string;
   level: "A1" | "A2";
-  reference: string;
 };

@@ -202,8 +202,124 @@ export default async function Home({ searchParams }: HomeProps) {
             videos={videos}
           />
         </AnimatedSection>
+        <AnimatedSection delay={0.18}>
+          <section className="rounded-3xl border border-primary/20 bg-white/80 p-6 shadow-sm backdrop-blur-sm md:p-8">
+            <div className="mx-auto max-w-4xl text-center">
+              <span className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
+                Learning Through Play
+              </span>
+
+              <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+                Practice English with Interactive Games
+              </h2>
+
+              <p className="mt-4 text-base leading-relaxed text-foreground/80 md:text-lg">
+                Learn and practice English through fun and interactive
+                activities. Explore games focused on everyday topics such as{" "}
+                <span className="font-medium text-foreground">
+                  colors, numbers, animals, family, school objects, food, and
+                  daily routines
+                </span>
+                . These activities help develop vocabulary, listening, reading,
+                and speaking skills while making the learning experience
+                enjoyable and engaging.
+              </p>
+
+              <div className="mt-6 flex flex-wrap justify-center gap-2">
+                {[
+                  "Vocabulary",
+                  "Reading",
+                  "Colors",
+                  "Vegetables",
+                  "Clothes",
+                  "Professions",
+                  "Body Parts",
+                  "Transportation",
+                  "Animals",
+                ].map((item) => (
+                  <span
+                    key={item}
+                    className="rounded-full border border-primary/15 bg-primary/5 px-3 py-1 text-sm font-medium text-foreground/80"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </section>
+        </AnimatedSection>
         <AnimatedSection delay={0.2}>
           <GamesSection games={games} />
+        </AnimatedSection>
+        <AnimatedSection delay={0.25}>
+          <section className="rounded-3xl border border-primary/20 bg-white/80 p-6 shadow-sm backdrop-blur-sm md:p-10">
+            <div className="mb-8 text-center">
+              <span className="inline-flex rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary">
+                Worksheets
+              </span>
+
+              <h2 className="mt-4 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+                Download and Practice at Home
+              </h2>
+
+              <p className="mx-auto mt-4 max-w-3xl text-base leading-relaxed text-foreground/80">
+                Reinforce your English learning with printable worksheets
+                designed for independent practice. Complete the activities at
+                your own pace and strengthen vocabulary, reading, writing, and
+                comprehension skills.
+              </p>
+            </div>
+
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {[
+                {
+                  title: "Body Parts Worksheet",
+                  href: "https://docs.google.com/document/d/1oCc1YWO4gs5159vi_pG5-Fki8CYrQK8WYXX3Cxvl7pA/edit?usp=sharing",
+                },
+                {
+                  title: "Colors Worksheet",
+                  href: "https://docs.google.com/document/d/1jB0I11ogWf34dXFOiO6tgzGi86fBwEJWzfUU3PFr4E8/edit?usp=sharing",
+                },
+                {
+                  title: "Vegetables Worksheet",
+                  href: "https://docs.google.com/document/d/1zUD-rUuEzvrnp9hztpbcGC-gqNtB8xmTT_MMqZYIm-k/edit?usp=sharing",
+                },
+                {
+                  title: "Professions Worksheet",
+                  href: "https://docs.google.com/document/d/1aa3V_1hP49h515G00yS70MaYJ5Vg3gQs15EdO2Y7F2U/edit?usp=sharing",
+                },
+                {
+                  title: "Animals Worksheet",
+                  href: "https://docs.google.com/document/d/1kQCydi0NjsyacQY8SD28HyQdao6TO0v3FmI3WnBk958/edit?usp=sharing",
+                },
+              ].map((worksheet) => (
+                <a
+                  key={worksheet.title}
+                  href={worksheet.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group rounded-2xl border border-primary/15 bg-linear-to-br from-primary/5 via-white to-secondary/10 p-5 transition-all hover:-translate-y-1 hover:border-primary/30 hover:shadow-md"
+                >
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-2xl">
+                    📄
+                  </div>
+
+                  <h3 className="text-lg font-semibold text-foreground">
+                    {worksheet.title}
+                  </h3>
+
+                  <p className="mt-2 text-sm text-foreground/70">
+                    Download and complete this worksheet to practice English
+                    skills.
+                  </p>
+
+                  <div className="mt-4 flex items-center text-sm font-medium text-primary">
+                    Open worksheet →
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
         </AnimatedSection>
         <AnimatedSection delay={0.15}>
           <StorySection story={story} />
